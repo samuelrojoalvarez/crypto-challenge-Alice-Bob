@@ -261,7 +261,7 @@ if __name__ == "__main__":
 
 **· Secure Rewrite:** Use standard prime-field ECC (e.g. secp256k1 or secp256r1). Derive keys with ECDH and a robust KDF (e.g., HKDF over SHA-256), and encrypt with a strong AEAD mode (AES-GCM or ChaCha20-Poly1305) in production for secure message encryption in blockchain contexts.
 
-## 6. Rust based Alternative Solution
+## 6. [Rust-Based Alternative Solution]
 
 **Cargo.toml**
 ```rust
