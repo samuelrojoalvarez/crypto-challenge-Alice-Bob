@@ -264,7 +264,7 @@ if __name__ == "__main__":
 ## 6. Rust based Alternative Solution
 
 **Cargo.toml**
-```
+```rust
 [package]
 name = "my-rust-ecdh"
 version = "0.1.0"
